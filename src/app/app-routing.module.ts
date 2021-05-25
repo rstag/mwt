@@ -8,8 +8,29 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'startup',
+    // redirectTo: 'home',
     pathMatch: 'full'
+  },
+  {
+    path: 'signin',
+    loadChildren: () => import('./signin/signin.module').then( m => m.SigninPageModule)
+  },
+  {
+    path: 'room',
+    loadChildren: () => import('./room/room.module').then( m => m.RoomPageModule)
+  },
+  {
+    path: 'addroom',
+    loadChildren: () => import('./addroom/addroom.module').then( m => m.AddroomPageModule)
+  },
+  {
+    path: 'startup',
+    loadChildren: () => import('./startup/startup.module').then( m => m.StartupPageModule)
+  },
+  {
+    path: 'findloc',
+    loadChildren: () => import('./findloc/findloc.module').then( m => m.FindlocPageModule)
   },
 ];
 

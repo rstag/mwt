@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "232020195510",
+    "firebase_url": "https://fbpushapp-default-rtdb.firebaseio.com",
+    "project_id": "fbpushapp",
+    "storage_bucket": "fbpushapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232020195510:android:11e6b34c604d8041090e17",
+        "android_client_info": {
+          "package_name": "com.rohittest.fbpushapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232020195510-94ja4djs4v1vco02657l3rpta6ivt1h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpx9-9-6ypyzHMHnN3zLNnC7SSaI4vDPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232020195510-94ja4djs4v1vco02657l3rpta6ivt1h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
